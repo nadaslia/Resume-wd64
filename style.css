@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-iu;
+  background-color: #efefef;
+}
+
+/*------- HEADER -------*/
+
+header {
+  padding: 2rem 4rem;
+  border-bottom: 2px solid #29213f;
+  text-align: center;
+}
+
+header ul {
+  list-style: none;
+}
+
+header a {
+  color: inherit;
+  text-decoration: none;
+  font-style: normal;
+}
+
+header a:hover {
+  color: peru;
+}
+
+header img {
+  display: block;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  filter: grayscale(1);
+  margin: 1rem auto;
+}
+
+h1 {
+  text-align: center;
+  color: peru;
+  text-decoration: underline;
+  margin: 30px;
+}
+
+/*------- MAIN -------*/
+
+main {
+  margin: 2rem 4rem;
+  max-width: 80ch;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+section li h3,
+section li p {
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+}
+
+section li {
+  margin: 0.5rem;
+}
